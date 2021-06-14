@@ -1,0 +1,76 @@
+.cardsContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-inline: 12%;
+}
+
+.loadingLabel {
+	display: flex;
+	justify-content: center;
+}
+
+.iconLabelBlock {
+	width: 101px;
+	height: 72px;
+	padding-left: 4%;
+}
+
+.loadingContainer {
+	height: 100px;
+	margin: 30px;
+}
+
+.iconLabelContainer {
+	border-bottom: 1px solid;
+}
+.inputElementContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-block: 3%;
+}
+
+.inputLabelBlock {
+	width: 48%;
+	height: 37px;
+	font-size: 16px;
+}
+.headerBlock {
+	position: relative;
+	height: 210px;
+}
+
+.headerSearch {
+	position: fixed;
+	width: 100%;
+	background: white;
+	z-index: 5;
+}
+.goTop {
+	position: fixed;
+	right: 17%;
+	bottom: 10%;
+	width: 4%;
+	height: 8%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border: 1px solid;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 23px;
+}
+
+@media only screen and (max-width: 600px) {
+	.cardsContainer {
+		padding-inline: 0%;
+	}
+	.iconLabelContainer {
+		text-align: center;
+	}
+	.goTop {
+		width: 11%;
+	}
+}
